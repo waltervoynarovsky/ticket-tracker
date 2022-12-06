@@ -6,7 +6,7 @@ const EmployeeTicketList = (props) => {
   const employeeTickets = teamArr.map((teamObject, index) => {
     console.log(teamObject);
     return (
-      <div className="employee-card" key={index + 1}>
+      <div key={index + 1}>
         <p>{teamObject.name}</p>
         <p>{teamObject.role}</p>
         <Counter></Counter>
