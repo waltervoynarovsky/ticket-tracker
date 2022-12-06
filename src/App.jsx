@@ -11,12 +11,12 @@ const App = () => {
     const input = event.target.value;
     setSearchTerm(input);
   };
-  const searchedTickets = team.filter(() => {
-    const searchedEmployees = team.name.includes(searchTerm);
-    return searchedEmployees;
+  // const searchedTickets = team.filter(() => {
+  //   const searchedEmployees = team.name.includes(searchTerm);
+  //   return searchedEmployees;
 
-    const allPeople = searchedTickets.map((person) => {});
-  });
+  //   const allPeople = searchedTickets.map((person) => {});
+  // });
   return (
     <div className="app">
       <header className="greeting">
