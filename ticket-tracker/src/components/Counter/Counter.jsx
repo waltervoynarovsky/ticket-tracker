@@ -15,14 +15,17 @@ const Counter = () => {
   };
 
   return (
-    <div className="counter">
-      <button className="counter__minus-sign" onClick={handleDecrement}>
-        -
-      </button>
-      <p>{counter}</p>
-      <button className="counter__plus-sign" onClick={handleIncrement}>
-        +
-      </button>
+    <div className="counter-wrapper">
+      <h4>Counter</h4>
+      <div className="counter">
+        <button className="button" onClick={handleDecrement}>
+          -
+        </button>
+        <p>{counter}</p>
+        <button className="button" onClick={handleIncrement}>
+          +
+        </button>
+      </div>
     </div>
   );
 };

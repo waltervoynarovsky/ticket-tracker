@@ -1,0 +1,15 @@
+.counter-wrapper {
+  border: 5px solid #5dadb0;
+}
+
+.counter {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #5dadb0;
+  padding: 0.5rem;
+  border-radius: 20px;
+}/*# sourceMappingURL=Counter.css.map */

@@ -1,21 +1,12 @@
-@use "./assets/sass/_variables.scss" as *;
-* {
-  background-color: $color-secondary;
-}
 .employee-tickets {
   text-align: center;
   display: grid;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: $color-secondary;
+  background-color: #fdcb6e;
   min-height: 80vh;
-  gap: 1rem;
-  margin: 1rem;
 }
 
-h1 {
-  text-align: center;
-}
 @media screen and (min-width: 400px) {
   .employee-tickets {
     grid-template-columns: repeat(1, 1fr);
@@ -26,9 +17,8 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media screen and (min-width: 1397px) {
+@media screen and (min-width: 1250px) {
   .employee-tickets {
     grid-template-columns: repeat(5, 1fr);
   }
-}
+}/*# sourceMappingURL=App.css.map */
