@@ -1,6 +1,7 @@
 @use "../../assets/sass/variables" as *;
 .counter-wrapper {
   border: 5px solid $color-primary;
+  border-radius: 20px;
 }
 .counter {
   margin: 2rem;
