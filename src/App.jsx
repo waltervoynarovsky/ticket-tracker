@@ -11,19 +11,17 @@ const App = () => {
     const input = event.target.value;
     setSearchTerm(input);
   };
-  // const searchedTickets = team.filter(() => {
-  //   const searchedEmployees = team.name.includes(searchTerm);
-  //   return searchedEmployees;
-  // });
+  const searchedTickets = team.filter((filtered) => {
+    const searchedEmployees = filtered.name.toLowerCase().includes(searchTerm);
+    return searchedEmployees;
+  });
 
   return (
     <div className="app">
       <header className="greeting">
         <h1 className="greeting__heading">Ticket Tracker</h1>
         <SearchBox searchTerm={searchTerm} handleInput={handleInput} />
-        {/* <EmployeeTicketList
-          teamArr={sear.length > 0 ? searchedTickets : team} */}
-        <EmployeeTicketList teamArr={team} />
+        <EmployeeTicketList teamArr={searchedTickets} />
       </header>
     </div>
   );
