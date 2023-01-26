@@ -1,13 +1,13 @@
 @use "./assets/sass/_variables.scss" as *;
 * {
-  background-color: $color-secondary;
+  background-color: lightgray;
 }
 .employee-tickets {
   text-align: center;
   display: grid;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: $color-secondary;
+  background-color: lightgray;
   min-height: 80vh;
   gap: 1rem;
   margin: 1rem;
